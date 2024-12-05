@@ -23,12 +23,12 @@ Role-based Access Control (RBAC): Roles are tied to specific permissions. Each r
 Access Control: Admins and users with specific roles have access to different parts of the system. For example, only users with an admin role can add or edit other users.
 
 **Clone the project repository:**
-1.git clone <repository-url>
+**1.git clone <repository-url>
 2.cd <project-directory>
 3.activate the environment by D:\RBAC\rbacui\Scripts\activate
 4.cd D:\RBAC\RBAC_Admin 
 5.pip install -r requirements.txt
 6.python manage.py migrate
 7.python manage.py runserver
-then, copy http://127.0.0.1:8000/dashboard1 and paste it in browser then we can see the admin dashboard with useful links in the side bar.
+then, copy http://127.0.0.1:8000/dashboard1 and paste it in browser then we can see the admin dashboard with useful links in the side bar.**
 
